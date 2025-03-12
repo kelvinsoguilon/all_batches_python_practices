@@ -3,6 +3,7 @@ output = []
 #iterate through 100 numbers
 for numbers in range(101):
     #check if number ends in 0
-    if numbers % 10 == 0:
+    if numbers % 10 != 0:
         output.append(numbers)
 #print the output
+print("The numbers from 0-100 that does not end in 0 are: ", output)
