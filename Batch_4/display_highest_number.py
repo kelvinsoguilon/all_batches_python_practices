@@ -9,3 +9,4 @@ while True:
     except ValueError:
         break    
 #print output
+print("The highest number entered is: ", max(numbers))
