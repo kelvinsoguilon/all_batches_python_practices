@@ -9,3 +9,4 @@ answer = numbers[0]
 for num in numbers[1:]:
     answer -= num
 #print result
+print("The first number subtracted to the remaining numbers is: ", answer)
