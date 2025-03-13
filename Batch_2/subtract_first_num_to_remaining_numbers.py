@@ -4,5 +4,8 @@ numbers = []
 for num in range(10):
     user = int(input("Enter a number: "))
 #set variable to first input
+answer = numbers[0]
 #iterate first input to subtract to remaining numbers
+for num in numbers[1:]:
+    answer -= num
 #print result
