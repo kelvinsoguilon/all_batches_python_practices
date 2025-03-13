@@ -13,4 +13,6 @@ while True:
     except ValueError:
         print("Invalid input.")
 #sort input from low to high
+numbers.sort()
 #print output
+print("The numbers arranged from lowest to highest are: ", numbers)
