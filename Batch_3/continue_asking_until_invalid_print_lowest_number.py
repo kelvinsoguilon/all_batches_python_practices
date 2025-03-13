@@ -4,11 +4,13 @@ numbers = []
 while True:
     try:
         num = int(input("Enter a number: "))
-        numbers.append(num)
         #invalid condition
         if num < 0:
             break
+        #ensures negative numbers are not stored
+        numbers.append(num)
     #Handle error
     except ValueError:
         print("Invalid input.")
 #print lowest number
+print("The lowest number is:", min(numbers))
