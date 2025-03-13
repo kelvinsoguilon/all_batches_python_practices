@@ -17,5 +17,12 @@ if numbers:
             frequency += 1
         else:
             frequency = 1
-#find the number with the highest frequency
+    #find the number with the highest frequency
+    highest_frequency = None
+    highest_count = 0
+
+    for num, count in frequency.items(): #counts the appearance of a number
+        if count > highest_count:
+            highest_count = count #the number of appearance
+            highest_frequency = num #find the number that appeared the most
 #print output
