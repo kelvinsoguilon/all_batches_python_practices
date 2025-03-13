@@ -14,9 +14,9 @@ if numbers:
 
     for num in numbers: #check whether number is already entered
         if num in frequency:
-            frequency += 1
+            frequency[num] += 1
         else:
-            frequency = 1
+            frequency[num] = 1
     #find the number with the highest frequency
     highest_frequency = None
     highest_count = 0
@@ -26,3 +26,4 @@ if numbers:
             highest_count = count #the number of appearance
             highest_frequency = num #find the number that appeared the most
 #print output
+print(f"The number with the most duplicate is {highest_frequency}, that appeared {highest_count} times.")
