@@ -12,3 +12,4 @@ while True:
 if numbers:
     average = sum(numbers) / len(numbers)
 #print result
+print("The average of all the numbers entered is: ", int(average))
