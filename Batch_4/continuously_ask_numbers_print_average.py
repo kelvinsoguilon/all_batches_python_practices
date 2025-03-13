@@ -9,4 +9,6 @@ while True:
     except ValueError:
         break
 #average the numbers
+if numbers:
+    average = sum(numbers) / len(numbers)
 #print result
